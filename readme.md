@@ -1,63 +1,22 @@
-// Template Name: Famie - Farm Services &amp; Organic Food Store Template
-// Template Author: Colorlib
-// Template Author URI: http://colorlib.com
+# AgroConnect
+This webapp can classify 38 different plant diseases.
+LINK to Presentation: [LINK](https://docs.google.com/presentation/d/1LdwKsY8tE_1YkXOzP1av6LxE0-NkXn39IteYj4UPQL4/edit?usp=sharing)
 
-To start 'Gulp' => npm run start
+## Steps to be followed for Local Host Installation
 
-File Structure:
-famie/
-└── src/
-    ├── css/
-    │   ├── animate.css
-    │   ├── bootstrap.min.css
-    │   ├── classy-nav.css
-    │   ├── font-awesome.min.css
-    │   ├── magnific-popup.css
-    │   ├── owl.carousel.min.css
-    │   ├── style.css
-    ├── fonts/
-    ├── img/
-    │   ├── bg-img
-    │   ├── core-img
-    ├── js/
-    │   ├── active.js
-    │   ├── bootstrap.min.js
-    │   ├── classynav.js
-    │   ├── jarallax-video.min.js
-    │   ├── jarallax.min.js
-    │   ├── jquery.magnific-popup.min.js
-    │   ├── jquery.min.js
-    │   ├── jquery.scrollup.min.js
-    │   ├── jquery.sticky.js
-    │   ├── owl.carousel.min.js
-    │   ├── popper.min.js
-    │   ├── wow.min.js
-    ├── scss/
-    │   ├── mixins
-    │   ├── utilities
-    │   ├── backtotop.scss
-    │   ├── blog.scss
-    │   ├── breadcrumb.scss
-    │   ├── buttons.scss
-    │   ├── contact.scss
-    │   ├── footer.scss
-    │   ├── header.scss
-    │   ├── heading.scss
-    │   ├── hero.scss
-    │   ├── homeage.scss
-    │   ├── preloader.scss
-    │   ├── reboot.scss
-    │   ├── shop.scss
-    │   ├── spacing.scss
-    │   ├── style.scss
-    │   ├── widget.scss
-    ├── about.html
-    ├── contact.html
-    ├── farming-practice.html
-    ├── index.html
-    ├── news-details.html
-    ├── news.html
-    ├── our-product.html
-    ├── shop.html
-    ├── style.css
-    └── style.css.map
+```shell
+# 1. Clone this repo
+$ git clone https://github.com/imskr/Plant_Disease_Detection.git
+$ cd deployment_guide
+$ cd local_flask
+
+# 2. Install requirements i.e. Python Packages
+$ pip install -r requirements.txt
+
+# 3. Download the trained model into the cloned repository from : 
+[LINK](https://drive.google.com/file/d/186O41SxRGoYZzlFtX6is5dwSLH5zMnPs/view?usp=sharing).
+
+# 4. Run the script
+$ python webapp.py
+```
+
